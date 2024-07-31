@@ -1,0 +1,20 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pumphouse_p.test
+  description: Test of playbook template in Developer Hub
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: pumphouse-p/devhub-playbook-test
+  links:
+    - url: https://devspaces.apps.ocp.prod.devinforyou.com/#https://github.com/pumphouse-p/devhub-playbook-test
+      title: Open Ansible project in OpenShift Dev Spaces
+      icon: web
+spec:
+  type: playbook-project
+  lifecycle: production
+  owner: pumphouse-p
